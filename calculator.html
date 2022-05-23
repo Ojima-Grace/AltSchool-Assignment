@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Calculator</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .whole-page {
+            width: max-content;
+            margin: auto;
+            border-radius: 20px;
+            padding: 25px;
+            background: pink;
+            margin-top: 10px;
+        }
+        h1 a, h1 {
+            text-align: center;
+            color: pink;
+            text-decoration: none;
+            margin: 10px;
+        }
+        input {
+            width: 100%;
+            border-radius: 5px;
+            border: 0.5px solid black;
+            height: 45px;
+            background: #fff;
+            text-align: right;
+            font-size: 15px;
+            color: pink;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        button {
+            flex: 1 20%;
+            padding: 15px;
+            font-size: 20px;
+            margin: 3px;
+            border-radius: 5px;
+            border: none;
+        }
+        .btn-no {
+            background: #000;
+            color: pink;
+        }
+        .btn-clear, .btn-equals {
+            background: orangered;
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="back"><a href="about.html">Click here to go back to portfolio home page</a></h1>
+    <h1 class="text">Flexbox Calculator</h1>
+    <div class="whole-page">
+        <div class="display"><input type="text"></div>
+        <div class="buttons">
+            <button class="btn-clear">C</button>
+            <button class="btn-no">del</button>
+            <button class="btn-no">%</button>
+            <button class="btn-no">/</button>
+            <button class="btn-no">1</button>
+            <button class="btn-no">2</button>
+            <button class="btn-no">3</button>
+            <button class="btn-no">+</button>
+            <button class="btn-no">4</button>
+            <button class="btn-no">5</button>
+            <button class="btn-no">6</button>
+            <button class="btn-no">-</button>
+            <button class="btn-no">7</button>
+            <button class="btn-no">8</button>
+            <button class="btn-no">9</button>
+            <button class="btn-no">x</button>
+            <button class="btn-no">.</button>
+            <button class="btn-no">0</button>
+            <button class="btn-no">00</button>
+            <button class="btn-equals">=</button>
+        </div>
+    </div>
+</body>
+</html>

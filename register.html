@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="whole-page">
+        <div class="navbar">
+            <div class="logo">
+                REGISTER
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="reg">
+            <h1 class="headtext">Register Here</h1>
+            <form action="" method="post">
+                <ol>
+                    <li>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="user-fname" required>
+                    </li>
+                    <li>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="user-lname" required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="user-phone" required>
+                    </li>
+                    <li>
+                        <label for="gender">Gender:</label>
+                        <select name="user-gender" id="gender" required>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="non-binary">Non-binary</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="country">Coutry:</label>
+                        <input type="text" id="country" name="user-country" required>
+                    </li>
+                    <li>
+                        <label for="state">State/Province:</label>
+                        <input type="text" id="state" name="user-state" required>
+                    </li>
+                    <li>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="user-username" required>
+                    </li>
+                    <li>
+                        <label for="pwd">Password:</label>
+                        <input type="password" id="pwd" name="user-pwd" required>
+                    </li>
+                    <li>
+                        <label for="c-pwd">Confirm password:</label>
+                        <input type="password" id="c-pwd" name="user-c-pwd" required>
+                    </li>
+                </ol>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

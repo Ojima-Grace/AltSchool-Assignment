@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="whole-page">
+        <div class="navbar">
+            <div class="logo">
+                CONTACT
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="form">
+            <h1 class="headtext">Contact Me</h1>
+            <form action="" method="post">
+                <ol>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user-name" required>
+                    </li>
+                    <li>
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="user-email" required>
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user-msg" required></textarea>
+                    </li>
+                    <li>
+                        <label for="priority">Priority:</label>
+                        <select name="user-priority" id="priority" required>
+                            <option value="frontend">Frontend</option>
+                            <option value="backend">Backend</option>
+                            <option value="cloud">Cloud</option>
+                        </select>
+                    </li>
+                </ol>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

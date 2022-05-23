@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.whole-page {
+    width: 100%;
+    height: 100vh;
+    background: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+img {
+    width: 400px;
+    height: 380px;
+    border-radius: 8px;
+    filter: none;
+    -webkit-filter: grayscale(0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+img:hover {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transform: scale(1.01);
+}
+.about-me {
+    margin-left: 2.5em;
+    color: deeppink;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: dimgray;
+    color: deeppink;
+    font-size: 1em;
+    padding: 1.5em;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu li {
+    margin-left: 2em;
+}
+.menu li a {
+    text-decoration: none;
+    color: deeppink;
+    cursor: pointer;
+}
+.menu ul li a:hover {
+    color: white;
+    transition: 0.5s;
+}
+.menu li:hover {
+    transform: translateY(-4px);
+    transition: 0.5s;
+}
+.navbar div {
+    cursor: pointer;
+}
+.navbar div:hover {
+    color: white;
+    transition: 0.5s;
+}
+fieldset {
+    border-radius: 8px;
+    border: 2px solid deeppink;
+    margin-top: 5px;
+    padding: 10px;
+}
+legend {
+    padding: 0 10px 0 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+fieldset ul {
+    list-style-type: none;
+}
+fieldset li {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1:hover {
+    letter-spacing: 1px;
+    color: white;
+    transition: 0.5s;
+}
+p {
+    margin: 8px 0 8px 0;
+}
+.calculator {
+    position: absolute;
+    right: 0;
+}
+form {
+    margin: 0 auto;
+    border: 2px solid deeppink;
+    width: 500px;
+    padding: 1.2em;
+    border-radius: 8px;
+    color: deeppink;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid deeppink;
+}
+form ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.button {
+    padding-left: 100px;
+}
+.headtext {
+    text-align: center;
+    color: deeppink;
+    margin: 10px 0 10px 0;
+}
+button {
+    margin-left: 5em;
+    width: 180px;
+    height: 30px;
+    background: #fff;
+    color: deeppink;
+    border-radius: 8px;
+    border: 2px solid deeppink;
+    transition: 0.5s;
+}
+button:hover {
+    letter-spacing: 1px;
+    background: deeppink;
+    color: #fff;
+}
+textarea {
+    vertical-align: top;
+    height: 6em;
+}
+select, option {
+    border: 2px solid deeppink;
+    color: deeppink;
+}
+.headtext a {
+    color: deeppink;
+    text-decoration: none;
+}
